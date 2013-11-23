@@ -4,7 +4,7 @@
 	"description": "A JavaScript preprocessor",
 	"main": "buildjs.js",
 	"scripts": {
-		"test": "nodeunit test/*.js"
+		"test": "test/*.js"
 	},
 	"repository": {
 		"type": "git",
