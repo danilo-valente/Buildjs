@@ -1,0 +1,28 @@
+{
+	"name": "build-js",
+	"version": "1.0.0",
+	"description": "A JavaScript preprocessor",
+	"main": "buildjs.js",
+	"scripts": {
+		"test": "nodeunit test/*.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/MarkLinus/Buildjs.git"
+	},
+	"keywords": [
+		"preprocessor",
+		"npm",
+		"javascript",
+		"module",
+		"macro",
+		"include"
+	],
+	"author": "Mark Linus <mark_linus@hotmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/MarkLinus/Buildjs/issues"
+	},
+	"devDependencies": {},
+	"dependencies": {}
+}
