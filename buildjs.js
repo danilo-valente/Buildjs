@@ -26,7 +26,7 @@ var macros = {
 	}
 };
 
-var ignorable = '[ \\t\\n\\r]+';
+var ignorable = '^[ \\t\\n\\r]+$';
 
 var skip = function (tokens) {
 	while (tokens.length > 0 && new RegExp(ignorable).test(tokens[0])) {
