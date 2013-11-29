@@ -14,14 +14,12 @@ var macros = {
 			}
 			return js.slice(0, index) + buildFile(incfile, (file.match(/^.*\//) || ['./'])[0]) + js.slice(index);
 		},
-		precedence: 1,
 		argc: 1
 	},
 	def: {
 		action: function (name, value, file, js) {
 			return js.replace(new RegExp(name, 'g'), value);
 		},
-		precedence: 2,
 		argc: 2
 	}
 };
@@ -101,9 +99,6 @@ var parse = function (code) {
 };
 
 var exec = function (coms, file, js, index) {
-	coms.sort(function (a, b) {
-		return b.command.precedence - a.command.precedence;
-	});
 	while (coms.length > 0) {
 		var com = coms.shift();
 		js = com.command.action.apply(this, com.args.concat(file, js, index));
