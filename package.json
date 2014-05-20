@@ -6,7 +6,7 @@
 	"scripts": {},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/MarkLinus/Buildjs.git"
+		"url": "git://github.com/danilo-valente/Buildjs.git"
 	},
 	"keywords": [
 		"preprocessor",
@@ -19,7 +19,7 @@
 	"author": "Danilo Marcolino Valente <dani_lovalente@hotmail.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/MarkLinus/Buildjs/issues"
+		"url": "https://github.com/danilo-valente/Buildjs/issues"
 	},
 	"devDependencies": {},
 	"dependencies": {}
